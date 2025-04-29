@@ -1,6 +1,17 @@
 # APIdoClima
 
-APIdoClima é uma API desenvolvida em ASP.NET Core 6 que fornece informações sobre o clima para cidades específicas. A API utiliza a Visual Crossing Weather API para obter dados climáticos e implementa limitação de taxa para evitar abusos.
+Crie uma API climática que busque e retorne dados meteorológicos.
+
+Neste projeto, em vez de depender de nossos próprios dados meteorológicos, construiremos uma API meteorológica que busca e retorna dados meteorológicos de uma API de terceiros. Este projeto ajudará você a entender como trabalhar com APIs de terceiros, cache e variáveis ​​de ambiente.
+![image](https://github.com/user-attachments/assets/0cb14d65-7f35-4dad-919f-4ac62f1eaed5)
+
+API do clima
+
+Quanto à API do clima a ser usada, você pode usar a sua favorita. Como sugestão, aqui está um link para a API do Visual Crossing , é totalmente GRÁTIS e fácil de usar.
+
+Em relação ao cache na memória, uma recomendação bastante comum é usar o Redis , você pode ler mais sobre isso aqui , e como recomendação, você pode usar o código da cidade inserido pelo usuário como chave e salvar lá o resultado da chamada da API.
+
+Ao mesmo tempo, ao "definir" o valor no cache, você também pode definir um tempo de expiração em segundos (usando o EXsinalizador no SETcomando). Dessa forma, o cache (as chaves) se limpará automaticamente quando os dados estiverem antigos o suficiente (por exemplo, definindo um tempo de expiração de 12 horas).
 
 ## Funcionalidades
 
