@@ -6,7 +6,7 @@ Neste projeto, em vez de depender de nossos próprios dados meteorológicos, con
 
 
 ![image](https://github.com/user-attachments/assets/0cb14d65-7f35-4dad-919f-4ac62f1eaed5)
-API do clima
+
 
 Quanto à API do clima a ser usada, você pode usar a sua favorita. Como sugestão, aqui está um link para a API do Visual Crossing , é totalmente GRÁTIS e fácil de usar.
 
